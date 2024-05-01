@@ -1,7 +1,8 @@
 ## Features
 
-- Display a digital clock in UI.
-- Not affected by change in context, it's a stream service.
+- Display an analog clock and a digital clock in UI.
+- Analog clock includes markers for 12, 3, 6, and 9 positions.
+- Digital clock is updated in real-time using a stream service.
 
 ## Usage
 
@@ -11,7 +12,7 @@ Add `clock_widget` to your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  clock_widget: ^0.0.1 # Use the latest version
+  clock_widget: ^0.0.2 # Use the latest version
 ```
 
 ### Import
@@ -23,11 +24,20 @@ import 'package:clock_widget/clock_widget.dart';
 
 ### Clockwidget implementation
 
-To show the digital clock widget, use the `ClockWidget()` method:
+To show the clock widgets, use the `ClockWidget()` method:
 
 ```dart
+// Display an analog clock
 ClockWidget(
-  // Prop to customise the background color
+  clockType: ClockType.analog,
+  // Prop to customize the background color
+  bgColor: Colors.white,
+),
+
+// Display a digital clock
+ClockWidget(
+  clockType: ClockType.digital,
+  // Prop to customize the background color
   bgColor: Colors.white,
 ),
 ```

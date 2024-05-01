@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
+/// A widget that displays a digital clock.
 class DigitalClock extends StatelessWidget {
   const DigitalClock({super.key});
 

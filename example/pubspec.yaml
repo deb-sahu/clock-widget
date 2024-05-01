@@ -10,12 +10,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
-  # Replace the clock_widget with your own package name and its path as ../
   clock_widget: 
     path: ../
-
-  # Add other packages as required for the example app
 
 dev_dependencies:
   flutter_test:

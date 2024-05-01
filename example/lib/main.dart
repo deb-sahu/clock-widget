@@ -31,10 +31,16 @@ class ExamplePage extends StatelessWidget {
       ),
       body: const Center(
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.start,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             ClockWidget(
+              clockType: ClockType.analog,
+              bgColor: Colors.white,
+            ),
+            SizedBox(height: 20),
+            ClockWidget(
+              clockType: ClockType.digital,
               bgColor: Colors.white,
             ),
           ],

@@ -1,6 +1,6 @@
 name: clock_widget
-description: A flutter package that provides a clock widget that can be used to display the current time.
-version: 0.0.1
+description: A flutter package to displays a clock widget with real time.
+version: 0.0.2
 homepage: https://github.com/deb-sahu/clock_widget
 
 environment:
@@ -10,7 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  intl: ^0.18.1 # For date formatting
+  intl: ^0.19.0
 
 dev_dependencies:
   flutter_test:
