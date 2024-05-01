@@ -17,7 +17,7 @@ Add `clock_widget` to your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  clock_widget: ^0.0.3 # Use the latest version
+  clock_widget: ^0.0.4 # Use the latest version
 ```
 
 ### Import

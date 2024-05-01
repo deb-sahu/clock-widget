@@ -1,3 +1,7 @@
+## 0.0.4
+* Resolved errors
+* Bug fixes
+
 ## 0.0.3
 * Reduced gif size
 
