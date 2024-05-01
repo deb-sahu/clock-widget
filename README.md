@@ -6,7 +6,7 @@
 
 ## Demo
 
-![gifclock](https://github.com/deb-sahu/clock_widget/assets/117360930/84544108-abfd-4973-b421-fda1c2b11a60)
+<img src="https://github.com/deb-sahu/clock_widget/assets/117360930/84544108-abfd-4973-b421-fda1c2b11a60" width="200">
 
 
 ## Usage
